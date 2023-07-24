@@ -2,7 +2,7 @@ import requests
 from sys import argv
 
 url=('https://newsapi.org/v2/top-headlines?')
-API_KEY='7f910522c3cf4f9aa1f4dfa7ff84fc38'
+API_KEY='INSERT_API_HERE'
 
 def get_articles_by_category(category):
     query_parameters={
